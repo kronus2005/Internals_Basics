@@ -1,0 +1,14 @@
+{
+    "step": "step1_training",
+    "model": "RandomForestClassifier",
+    "parameters": {
+        "n_estimators": 100,
+        "random_state": 42
+    },
+    "metrics": {
+        "accuracy": 0.85,
+        "precision": 0.84,
+        "recall": 0.86,
+        "f1_score": 0.85
+    }
+}
