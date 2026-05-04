@@ -1,0 +1,9 @@
+{
+    "step": "step2_tuning",
+    "best_params": {
+        "max_depth": 20,
+        "n_estimators": 100
+    },
+    "best_score": 0.88,
+    "model": "RandomForestClassifier"
+}
