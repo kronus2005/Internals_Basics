@@ -1,0 +1,16 @@
+{
+    "health_endpoint": "/heartbeat",
+    "predict_endpoint": "/predict",
+    "port": 8080,
+    "health_response": {
+        "alive": true,
+        "service": "OrbitCalc signal_delay_ms API"
+    },
+    "test_input": {
+        "orbit_altitude_km": 14411.4,
+        "ground_station_count": 6,
+        "atmospheric_index": 3.0,
+        "is_polar_orbit": 0
+    },
+    "prediction": 12.3456
+}
